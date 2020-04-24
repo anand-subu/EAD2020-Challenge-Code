@@ -8,7 +8,7 @@ The main code resources hosted here, will be primarily the object tracking pipel
 
 # Resources:
 
-The following resources were of great assistance to us while developing our object tracking pipeline, and our ensemble pipelines, in terms of both motivation and for reusing parts of code from, while building this solution, for which we would like to express our sincer gratitude.
+The following resources were of great assistance to us while developing our object tracking pipeline, and our ensemble pipelines, in terms of both motivation and for reusing parts of code from, while building this solution, for which we would like to express our sincere gratitude.
 
 ### Object tracking pipeline:
 
