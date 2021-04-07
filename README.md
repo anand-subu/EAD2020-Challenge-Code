@@ -15,6 +15,9 @@ The following resources were of great assistance to us while developing our obje
 * [Multi-Object Tracking using Dlib and OpenCV- Adrian Rosebrock (Pyimagesearch)](https://www.pyimagesearch.com/2018/10/29/multi-object-tracking-with-dlib/)
 * [Object Tracking using OpenCV - Sathya Mallick (Learn OpenCV)](https://www.learnopencv.com/object-tracking-using-opencv-cpp-python/)
 * [Object Tracking APIs OpenCV- Adrian Rosebrock (Pyimagesearch)](https://www.pyimagesearch.com/2018/10/22/object-tracking-with-dlib/)
+
+### Keras Data Generators:
+
 * [A detailed example of how to use data generators with Keras - By Afshine Amidi and Shervine Amidi](https://stanford.edu/~shervine/blog/keras-how-to-generate-data-on-the-fly)
 
 ### Segmentation Ensemble Pipeline:
