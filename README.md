@@ -5,10 +5,17 @@ This repo will host the code for our solution of the EAD-2020 challenge as descr
 
 The main code resources hosted here are the data generator scripts used while training the semantic segmentation network, and the inference files for the objection detection and semantic segmentation tasks.
 
+## Guidelines for any general queries:
+  * `AttributeError: module 'keras.utils' has no attribute 'generic_utils'` - This could be due to both keras and tf.keras present in the python environment. Refer to the [readme file of the segmentation_models repository](https://github.com/qubvel/segmentation_models), specifically in terms of how to set environment variable to avoid this issue.
+    * For Windows environments, try running `set SM_FRAMEWORK=tf.keras/keras` as required.
+    * For Linux environments, try running `export SM_FRAMEWORK=tf.keras/keras` as required.
+  
+  * <b>The Segmentation Data Generator treats images as BGR and pixel values are not rescaled.</b> Refer this [issue in segmentation_models](https://github.com/qubvel/segmentation_models/issues/23) for reasons why it is kept this way for ResNet model backends, specifically since this is with reference to the U-Net Model we used. The preprocessing can be tinkered with easily to work with any other model specific preprocessing requirements.
+
 
 # Resources:
 
-The following resources were of great assistance to us while developing our object tracking pipeline, our ensemble pipelines, and data generator in terms of both motivation, understanding concepts and/or for reusing parts of code from, for which we would like to express our sincere gratitude.
+The following resources were of great assistance to us while developing various components of our solution in our paper, in terms of both motivation, understanding concepts and/or for reusing parts of code from, for which we would like to express our sincere gratitude.
 
 ### Object tracking pipeline:
 * [OpenCV's Object Tracking Documentation](https://docs.opencv.org/3.4/d9/df8/group__tracking.html)
